@@ -1,0 +1,16 @@
+
+La busqueda de horas libres desde ajax:
+class-wc-bookboats-ajax.php -> class-wc-product-bookboats.php -> get_list_free_hours_for_date()
+
+Manejo de la reserva CPT wc_bookboat
+class-wc-bookboats-cpt.php
+
+Crear cpt cuando checkout
+class-wc-bookboats-cart-manager.php -> order_item_meta()
+
+
+
+CAMBIOS TODO
+class-wc-bookboats-cart-manager.php -> es donde se crea la reserva linea 197
+    Terminar la function get_wc_bookboat_from_order()
+    La reserva se debe crear desde class-wc-bookboats.php

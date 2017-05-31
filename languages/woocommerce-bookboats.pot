@@ -1,0 +1,440 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Book Boats\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Feb 10 2016 19:18:50 GMT+0100 (CET)\n"
+"POT-Revision-Date: Wed Feb 10 2016 19:19:09 GMT+0100 (CET)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "Woocommerce Book Boats"
+msgstr ""
+
+#. Description of the plugin
+msgid "Interface for Booking Boats"
+msgstr ""
+
+#. Author of the plugin
+msgid "Alejandro Pascual"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.elapsl.com"
+msgstr ""
+
+#: /includes/admin/class-wc-book-boats-admin.old.php:32 /includes/admin/class-wc-
+#: bookboats-admin.php:37
+msgid "Book Boats product"
+msgstr ""
+
+#: /includes/admin/class-wc-book-boats-admin.old.php:42
+msgid "Has Boat persons"
+msgstr ""
+
+#: /includes/admin/class-wc-book-boats-admin.old.php:43
+msgid ""
+"Enable this if this bookable product can be booked by a customer defined "
+"number of persons."
+msgstr ""
+
+#: /includes/admin/class-wc-book-boats-admin.old.php:49
+msgid "Has Boat resources"
+msgstr ""
+
+#: /includes/admin/class-wc-book-boats-admin.old.php:50
+msgid ""
+"Enable this if this bookable product has multiple bookable resources, for "
+"example room types or instructors."
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:5 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:4
+msgid "January"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:6 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:5
+msgid "Febuary"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:7 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:6
+msgid "March"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:8 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:7
+msgid "April"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:9 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:8
+msgid "May"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:10 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:9
+msgid "June"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:11 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:10
+msgid "July"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:12 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:11
+msgid "August"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:13 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:12
+msgid "September"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:14 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:13
+msgid "October"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:15 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:14
+msgid "November"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:16 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:15
+msgid "December"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:20 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:18
+msgid "Monday"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:21 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:19
+msgid "Tuesday"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:22 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:20
+msgid "Wednesday"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:23 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:21
+msgid "Thursday"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:24 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:22
+msgid "Friday"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:25 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:23
+msgid "Saturday"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:26 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:24
+msgid "Sunday"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:39 
+#: /includes/admin/views/html-bookboats-costs-dates-fields.php:47
+msgid "Custom date range"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:40
+msgid "Range of months"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:41
+msgid "Range of days"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:86
+msgid "No"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability-fields.php:87
+msgid "Yes"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:10
+msgid "Minimum time to book"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:13 
+#: /includes/admin/views/html-bookboats-availability.php:32
+msgid "Minute(s)"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:14 
+#: /includes/admin/views/html-bookboats-availability.php:33
+msgid "Hour(s)"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:15 
+#: /includes/admin/views/html-bookboats-availability.php:34
+msgid "Day(s)"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:16 
+#: /includes/admin/views/html-bookboats-availability.php:35
+msgid "Week(s)"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:17 
+#: /includes/admin/views/html-bookboats-availability.php:36
+msgid "Month(s)"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:18 
+#: /includes/admin/views/html-bookboats-availability.php:37
+msgid "into the future"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:29
+msgid "Maximum time to book"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:44
+msgid "All dates are..."
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:48
+msgid "available by default"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:49
+msgid "not-available by default"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:51
+msgid "This option affects how you use the rules below."
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:60
+msgid "INSERT RANGE OF DATES FOR EXCEPTIONS IN AVAILABILITY / NON-AVAILABILITY"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:67 
+#: /includes/admin/views/html-bookboats-costs.php:56
+msgid "Range type"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:68
+msgid "From"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:69
+msgid "To"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:70
+msgid "Bookable"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:70
+msgid "If not bookable, users won't be able to choose this block for their booking."
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:84 
+#: /includes/admin/views/html-bookboats-availability.php:130 
+#: /includes/admin/views/html-bookboats-costs.php:76
+msgid "Add Range"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:85
+msgid "Rules further down the table will override those at the top."
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:108
+msgid ""
+"BY DEFAULT ALL HOURS ARE AVAILABLE, INSERT HERE NON-AVAILABLE HOURS (example:"
+" 22:00 - 23:59)"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:115
+msgid "From Hour"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:116
+msgid "To Hour"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-availability.php:131
+msgid "If you don't insert any rule then will be available from 00:00 to 24:00."
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:6
+msgid "INCREMENT COST BASED ON TRAVEL TIME (apart from start point & end point)"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:11 /includes/admin/views/html-
+#: bookboats-endpoint.php:9 /includes/admin/views/html-bookboats-startpoint.php:9
+msgid "Title"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:12 /includes/admin/views/html-
+#: bookboats-endpoint.php:10 /includes/admin/views/html-bookboats-startpoint.php:10
+msgid "Extra Time (minutes)"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:13 /includes/admin/views/html-
+#: bookboats-endpoint.php:11
+msgid "Ghost Time after (minutes)"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:14 /includes/admin/views/html-
+#: bookboats-endpoint.php:12 /includes/admin/views/html-bookboats-startpoint.php:12
+msgid "Extra cost"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:15 /includes/admin/views/html-
+#: bookboats-costs.php:62 /includes/admin/views/html-bookboats-endpoint.php:13 
+#: /includes/admin/views/html-bookboats-startpoint.php:13
+msgid "Description"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:26 /includes/admin/views/html-
+#: bookboats-endpoint.php:24 /includes/admin/views/html-bookboats-startpoint.php:24
+msgid "Add Travel Time"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:27
+msgid "Create new Travel Time option"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:48
+msgid "INCREMENT COST BASED ON SPECIFIC DATES OR WEEK DAYS"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:57
+msgid "From date"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:58
+msgid "To date"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:59
+msgid "From time"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:60
+msgid "To time"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:61
+msgid "Base cost/boat"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:61
+msgid "Enter a cost for this rule."
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-costs.php:77
+msgid "All matching rules will be applied to the booking."
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-data.php:13
+msgid "Max Number of Boats"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-data.php:17
+msgid "Max Persons/Boat"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-data.php:35
+msgid "10 minutes"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-data.php:36
+msgid "15 minutes"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-data.php:37
+msgid "20 minutes"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-data.php:38
+msgid "30 minutes"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-data.php:39
+msgid "40 minutes"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-data.php:40
+msgid "45 minutes"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-data.php:41
+msgid "60 minutes"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-data.php:42
+msgid "90 minutes"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-endpoint.php:4
+msgid "INCREMENT COST BASED ON END POINT"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-endpoint.php:25
+msgid "Create new End Point"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-startpoint.php:4
+msgid "INCREMENT COST BASED ON START POINT"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-startpoint.php:11
+msgid "Ghost Time before (minutes)"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-startpoint.php:25
+msgid "Create new Start Point"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-tab.php:1
+msgid "Availability"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-tab.php:2
+msgid "Costs"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-tab.php:3
+msgid "Start Point"
+msgstr ""
+
+#: /includes/admin/views/html-bookboats-tab.php:4
+msgid "End Point"
+msgstr ""
+
+#: /templates/single-product/add-to-cart/bookboats.php:24
+msgid "Your browser must support JavaScript in order to make a booking."
+msgstr ""

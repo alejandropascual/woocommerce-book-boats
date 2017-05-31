@@ -1,0 +1,252 @@
+/* Icons in tabs */
+#woocommerce-product-data ul.wc-tabs li.bookboats_costs_tab a:before {  content: '\e01e' !important;  }
+#woocommerce-product-data ul.wc-tabs li.bookboats_availability_tab a:before {  content: '\e00e' !important;  }
+#woocommerce-product-data ul.wc-tabs li.bookboats_startpoint_tab a:before { content: '\e029' !important; }
+#woocommerce-product-data ul.wc-tabs li.bookboats_endpoint_tab a:before { content: '\e02f' !important; }
+
+
+/*-------------------------------*/
+/* Bootboats */
+/*-------------------------------*/
+
+#bookboats_costs .table_grid,
+#bookboats_startpoint .table_grid,
+#bookboats_endpoint .table_grid,
+#bookboats_availability .table_grid {
+    margin: 10px;
+    overflow-x: scroll;
+}
+
+/* table borders */
+#bookboats_costs .table_grid table td,
+#bookboats_costs .table_grid table th,
+#bookboats_startpoint .table_grid table td,
+#bookboats_startpoint .table_grid table th,
+#bookboats_endpoint .table_grid table td,
+#bookboats_endpoint .table_grid table th,
+#bookboats_availability .table_grid table td,
+#bookboats_availability .table_grid table th {
+    border-right: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
+}
+#bookboats_costs .table_grid table td:last-child,
+#bookboats_costs .table_grid table th:last-child,
+#bookboats_startpoint .table_grid table td:last-child,
+#bookboats_startpoint .table_grid table th:last-child,
+#bookboats_endpoint .table_grid table td:last-child,
+#bookboats_endpoint .table_grid table th:last-child,
+#bookboats_availability .table_grid table td:last-child,
+#bookboats_availability .table_grid table th:last-child { border-right: 0; }
+
+/* table inputs */
+#boat_pricing_rows table input,
+#boat_pricing_rows_time table input,
+#bookboats_costs table input,
+#bookboats_availability table input,
+#bookboats_startpoint table input,
+#bookboats_endpoint table input {
+    width: 100%; min-width: 100px;
+    border: none;
+}
+
+.table_grid input.title { min-width: 200px !important; }
+.table_grid input.description { min-width: 300px !important; }
+
+/* sort */
+#bookboats_costs .table_grid table td.sort,
+#bookboats_startpoint .table_grid table td.sort,
+#bookboats_endpoint .table_grid table td.sort,
+#bookboats_availability .table_grid table td.sort {
+    padding-top: 12px;
+    width: 16px!important;
+    padding: 9px;
+    cursor: move;
+}
+#bookboats_costs .table_grid table td.sort:hover,
+#bookboats_startpoint .table_grid table td.sort:hover,
+#bookboats_endpoint .table_grid table td.sort:hover,
+#bookboats_availability .table_grid table td.sort:hover {
+    background: #cdcdcd;
+}
+
+/* remove */
+#bookboats_costs .table_grid table td.boat_remove_row,
+#bookboats_startpoint .table_grid table td.boat_remove_row,
+#bookboats_endpoint .table_grid table td.boat_remove_row,
+#bookboats_availability .table_grid table td.boat_remove_row {
+    padding-top: 12px;
+    width: 16px!important;
+    cursor: pointer;
+}
+#bookboats_costs .table_grid table td.boat_remove_row:hover,
+#bookboats_startpoint .table_grid table td.boat_remove_row:hover,
+#bookboats_endpoint .table_grid table td.boat_remove_row:hover,
+#bookboats_availability .table_grid table td.boat_remove_row:hover {
+    background: red; color: white;
+}
+
+/* button add row */
+.boat_add_row { float: right; }
+
+table.wp-list-table .notes_head, table.wp-list-table .order-notes_head, table.wp-list-table .status_head {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    margin: 0 auto;
+}
+table.wp-list-table .status_head:after {
+    content: "\e011";
+}
+table.wp-list-table .notes_head:after, table.wp-list-table .order-notes_head:after, table.wp-list-table .status_head:after {
+    font-weight: 400;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+table.wp-list-table .notes_head:after, table.wp-list-table .order-notes_head:after, table.wp-list-table .status_head:after, table.wp-list-table span.product-type:before, table.wp-list-table span.wc-featured:before, table.wp-list-table span.wc-image:before, table.wp-list-table span.wc-type:before {
+    speak: none;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 1;
+    font-family: WooCommerce;
+}
+.type-wc_bookboat .column-bookboat_status, th.column-bookboat_status {
+    text-align: center;
+    width: 60px;
+}
+
+.bookboat-alert {
+    display: inline-block;
+    background: #EF596D;
+    padding: 5px 10px;
+    color: white;
+}
+.bookboat-awaiting {
+    display: inline-block;
+    background: #F1F360;
+    padding: 5px 10px;
+    color: black;
+}
+.bookboat-done {
+    display: inline-block;
+    background: #81CC78;
+    padding: 5px 10px;
+    color: white;
+}
+
+.bookboat-reserved {
+    display: inline-block;
+    padding: 5px 10px;
+    /*border: 2px solid red; border-radius: 30px;*/
+    box-sizing: border-box;
+    color: red;
+    text-transform: uppercase;
+}
+.bookboat-free {
+    display: inline-block;
+    padding: 5px 10px;
+    /*border: 2px solid limegreen; border-radius: 30px;*/
+    box-sizing: border-box;
+    color: limegreen;
+    text-transform: uppercase;
+}
+
+
+.column-bookboat_actions a {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    padding: 0!important;
+    height: 2em!important;
+    width: 2em;
+    margin-right: 4px!important;
+}
+.column-bookboat_actions a:after {
+    font-family: woocommerce;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "\e001";
+    line-height: 1.85;
+}
+
+.column-bookboat_actions a.view:after {
+    content: "\e010";
+}
+.column-bookboat_actions a.alert:after {
+    content: "\e033";
+    background: #EF596D;
+    color: white;
+}
+.column-bookboat_actions a.awaiting:after {
+    content: "\e012";
+    background: #F1F360;
+    color: black;
+}
+.column-bookboat_actions a.done:after {
+    content: "\e015";
+    background: #81CC78;
+    color: white;
+}
+.column-bookboat_actions a.reserved:after {
+    content: "\e602";
+    color: red;
+}
+.column-bookboat_actions a.free:after {
+    content: "\e039";
+    color: limegreen;
+}
+
+
+/* jquery tiptip */
+#tiptip_holder.tip_bottom {
+    padding-top: 5px;
+}
+#tiptip_holder {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+    margin-top: -5px;
+    margin-left: -6px;
+    border-bottom-color: #333;
+}
+#tiptip_arrow, #tiptip_arrow_inner {
+    position: absolute;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 6px;
+    height: 0;
+    width: 0;
+}
+#tiptip_content, .chart-tooltip, .wc_error_tip {
+    color: #fff;
+    font-size: .8em;
+    max-width: 150px;
+    background: #333;
+    text-align: center;
+    border-radius: 3px;
+    padding: .618em 1em;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
